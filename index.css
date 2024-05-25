@@ -1,0 +1,62 @@
+.bg-container {
+  background-image: url('https://res.cloudinary.com/dywt1bej8/image/upload/v1716532326/Background_1px_lwv3vf.png');
+  background-size: cover;
+  height: 768px;
+  width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://res.cloudinary.com/dywt1bej8/image/upload/v1716629906/Background_1px_adntql.png');
+    background-size: cover;
+    height: 800px;
+    width: 360px;
+  }
+}
+
+.card-container {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 0px #ffffff;
+  border-radius: 16px;
+  height: 501px;
+  width: 511px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-mart {
+  width: 119px;
+  height: 85px;
+  margin-top: 70px;
+}
+
+.user-input {
+  height: 40px;
+  width: 383px;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.user-profile-circle {
+  background-image: url('https://res.cloudinary.com/dywt1bej8/image/upload/v1716630394/profile-circle_1px_dodvcr.png');
+  height: 16px;
+  width: 16px;
+}
+
+.password-input {
+  height: 40px;
+  width: 383px;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
